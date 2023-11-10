@@ -24,7 +24,7 @@ namespace FlaxServiceLocator
                 HomepageUrl = null,
                 RepositoryUrl = "https://github.com/DevHrytsan/FlaxServiceLocator",
                 Description = "Centralized registry for obtaining references to various services or components.",
-                Version = new Version(1, 0, 0),
+                Version = new Version(0, 5, 0),
                 IsAlpha = false,
                 IsBeta = false,
             };
