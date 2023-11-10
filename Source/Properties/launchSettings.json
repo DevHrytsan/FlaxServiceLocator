@@ -1,0 +1,18 @@
+﻿{
+  "profiles": {
+    "FlaxServiceLocator": {
+      "commandName": "Executable",
+      "workingDirectory": "E:/Projects/FlaxProjects/PluginsDevelopingProject",
+      "executablePath": "E:/Projects/Github/FlaxEngine/Binaries/Editor/Win64/Development/FlaxEditor.exe",
+      "commandLineArgs": "-project \"E:/Projects/FlaxProjects/PluginsDevelopingProject\"",
+      "nativeDebugging": false
+    },
+    "FlaxServiceLocatorEditor": {
+      "commandName": "Executable",
+      "workingDirectory": "E:/Projects/FlaxProjects/PluginsDevelopingProject",
+      "executablePath": "E:/Projects/Github/FlaxEngine/Binaries/Editor/Win64/Development/FlaxEditor.exe",
+      "commandLineArgs": "-project \"E:/Projects/FlaxProjects/PluginsDevelopingProject\"",
+      "nativeDebugging": false
+    }
+  }
+}
