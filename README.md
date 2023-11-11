@@ -56,7 +56,7 @@ Services need to be registered with the Service Locator before they can be acces
 The `IRegistrableService` interface serves as a marker interface that indicates a service is eligible for registration.
 All services class must inherit it.
 ``` csharp
- public class MyServiceClass : Script
+ public class MyServiceClass : IRegistrableService
  {
    
  }
