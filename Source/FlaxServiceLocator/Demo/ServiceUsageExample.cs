@@ -47,8 +47,8 @@ namespace FlaxServiceLocator.Demo
                 _manualSubScriptService = ServiceLocatorPlugin.Services.Get<ManualSubScriptService>(ServiceLocator.Retrieve.FindOrCreate, Actor);
                 Debug.Log($"Give me my {nameof(ManualSubScriptService)}!");
 
-            }
 
+            }
             _manualSubScriptService.DoWork();
 
         }

@@ -118,12 +118,6 @@
 			"TypeName": "FlaxServiceLocator.Demo.AutoSubScriptService",
 			"ParentID": "04ccc51a4a567babb89ca0b79728658e",
 			"V": {}
-		},
-		{
-			"ID": "cbcc07694f9de2acfd11b1853a52bc93",
-			"TypeName": "FlaxEngine.EmptyActor",
-			"ParentID": "62b5a40e4e95a4a4f3b1f996c08cb600",
-			"Name": "EmptyActor"
 		}
 	]
 }

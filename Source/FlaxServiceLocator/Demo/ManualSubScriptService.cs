@@ -9,7 +9,7 @@ namespace FlaxServiceLocator.Demo
         public override void OnAwake()
         {
             //Manual subscription must be in OnAwake
-            ServiceLocatorPlugin.Services.Register(this);
+           //ServiceLocatorPlugin.Services.Register(this);
         }
 
         public void DoWork()

@@ -146,7 +146,7 @@ namespace FlaxServiceLocator
                 return (TService)_services[serviceType];
             }
 
-            if (forced != Retrieve.No)
+            if (forced == Retrieve.No)
             {
                 throw new Exception($"{serviceType.Name} hasn't been registered.");
             }
