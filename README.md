@@ -1,4 +1,4 @@
-<img align="left" src="https://github.com/DevHrytsan/FlaxServiceLocator/Icon/fsl_icon.png" width="110px"/>
+<img align="left" src="https://github.com/DevHrytsan/FlaxServiceLocator/blob/main/Icon/fsl_icon.png" width="110px"/>
 <h1>Flax Service Locator</h1>
 
 ## Description
@@ -88,9 +88,14 @@ To make a service auto-registerable,use it with the `[AutoRegisteredService]` at
  }
 ```
 And then use `CheckAutoRegisteredServices()` method to check which services are automatically registered 
-```
+``` csharp
 ServiceLocatorPlugin.Services.CheckAutoRegisteredServices();
 ```
+> [!WARNING]
+> There is an issue with executing `CheckAutoRegisteredServices()` during class initialization. Basically, Flax engine class `GamePlugin` call `Initialize`(acts like `Awake` in script) before any scene load. And automatic search of services is "blind".
+> You will ask why it cant be done automatically when all scenes is loaded?
+> Even using the FlaxEngine event `Level.SceneLoaded` doesn't solve this problem. The code related to problem is commented inside the `Service Locator` class and u can uncomment them to use this.
+> If u have solution for it. Please contirube to fix it.  
 
 ### Registering Services with Safe Check
 By default, services are registered with a safe check, which means an exception is thrown if you attempt to register a service type that has already been registered. To disable this behavior, set the `safe` parameter to `false` when registering the service.
