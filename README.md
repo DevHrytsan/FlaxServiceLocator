@@ -1,4 +1,4 @@
-<img align="left" src="https://github.com/DevHrytsan/FlaxObjectPool/Icon/fsl_icon.png" width="110px"/>
+<img align="left" src="https://github.com/DevHrytsan/FlaxServiceLocator/Icon/fsl_icon.png" width="110px"/>
 <h1>Flax Service Locator</h1>
 
 ## Description
